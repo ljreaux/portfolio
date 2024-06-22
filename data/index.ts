@@ -15,7 +15,7 @@ export const gridItems = [
       "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-primary",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "https://img.freepik.com/free-photo/glasses-near-laptop-reflect-light-from-screen-dark-copy-space_169016-14893.jpg?t=st=1719018029~exp=1719021629~hmac=059ef783417ec8469e04d3b57de17cb2a3f685343d0c0c1f8e0d6698cb271587&w=900",
+    img: "/b1.jpg",
     spareImg: "",
   },
   {
@@ -116,7 +116,7 @@ export const projects = [
     iconLists: [
       "/next.svg",
       "/tail.svg",
-      "https://avatars.githubusercontent.com/u/139895814?s=200&v=4",
+      "/shadcn.png",
       "/ts.svg",
       "/c.svg",
       "/js_discord-icon.svg",

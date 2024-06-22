@@ -3,10 +3,11 @@ import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import Image from "next/image";
 interface BentoGridItemType {
   className?: string;
   title?: string | React.ReactNode;
@@ -54,6 +55,15 @@ export const BentoGridItem = ({
     navigator.clipboard.writeText("larryreaux@gmail.com");
     setCopied(true);
   };
+
+  useEffect(() => {
+    if (copied) {
+      setTimeout(() => {
+        setCopied(false);
+      }, 5000);
+    }
+  }, [copied]);
+
   return (
     <div
       className={cn(
@@ -64,10 +74,11 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
               className={cn(imgClassName, "object-cover object-center")}
+              fill
             />
           )}
         </div>
@@ -77,10 +88,11 @@ export const BentoGridItem = ({
           }`}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
               className={"object-cover object-center w-full h-full"}
+              fill
             />
           )}
         </div>
