@@ -145,6 +145,12 @@ export const testimonials = [
     name: "BC Phillips",
     title: "MeadTools User, Content Creator",
   },
+  {
+    quote:
+      "Meadtools is the next big thing for any and all meadmakers who want to hone in their craft. From the recipe builder to the calculators, it has everything you need to confidently make mead. Larry has worked diligently to make it a simple and approachable website and it is incredible. In addition to his great work coding the website, he has also made the Man Made Mead discords newest bot and dashboard. This has also been revolutionary for the discord as we look to make our community an easier place to share and find information!",
+    name: "Garrett Freeman",
+    title: "MeadTools User, Content Creator",
+  },
 ];
 export const workExperience = [
   {
