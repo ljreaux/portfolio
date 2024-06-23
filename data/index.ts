@@ -139,6 +139,12 @@ export const testimonials = [
     name: "Jake Tweedy",
     title: "MeadTools User",
   },
+  {
+    quote:
+      "Larry poured a lot of time, effort, and insight into creating a much-needed tool for meadmakers around the world. Incorporating best practices for meadmaking into an intuitive online calculator was no small task — especially dealing with all the schools of thought around best practices for the hobby. Larry has been quick to roll out new features and bug fixes, making meadtools now the most trustworthy way of building batches, calculating nutrients, and other important meadmaking tasks. I’ve deleted all my other mead app bookmarks at this point thanks to this handy new tool!",
+    name: "BC Phillips",
+    title: "MeadTools User, Content Creator",
+  },
 ];
 export const workExperience = [
   {

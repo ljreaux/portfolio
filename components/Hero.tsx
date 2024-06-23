@@ -1,9 +1,8 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaArrowCircleDown } from "react-icons/fa";
-import { TypewriterEffect } from "./ui/TypewriterEffect";
+import { TypewriterEffectSmooth } from "./ui/TypewriterEffect";
 
 const Hero = () => {
   return (
@@ -31,7 +30,7 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-amber-100 max-w-80">
             Responsive Design with Next.js
           </h2>
-          <TypewriterEffect
+          <TypewriterEffectSmooth
             className="text-center text-[40px] md:text-5xl lg:text-6xl py-8"
             words={"Crafting Seamless Web Experiences with Passion and Precision"
               .split(" ")

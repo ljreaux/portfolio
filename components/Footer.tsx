@@ -21,7 +21,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Contact me to transform your vision into reality!
         </p>
-        <a href="mailto:larryreaux@gmail.com">
+        <a href="mailto:larryreaux@gmail.com" target="_blank">
           <MagicButton
             title="Let's get in touch"
             icon={<CiMail />}
