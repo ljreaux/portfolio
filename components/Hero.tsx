@@ -1,8 +1,8 @@
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaArrowCircleDown } from "react-icons/fa";
-import { TypewriterEffectSmooth } from "./ui/TypewriterEffect";
 
 const Hero = () => {
   return (
@@ -30,15 +30,11 @@ const Hero = () => {
           <h2 className="uppercase tracking-widest text-xs text-center text-amber-100 max-w-80">
             Responsive Design with Next.js
           </h2>
-          <TypewriterEffectSmooth
+          <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl py-8"
-            words={"Crafting Seamless Web Experiences with Passion and Precision"
-              .split(" ")
-              .map((item, idx) => {
-                return idx === 5 || idx === 7
-                  ? { text: item, className: "text-orange" }
-                  : { text: item, className: "dark:text-white text-black" };
-              })}
+            words={
+              "Crafting Seamless Web Experiences with Passion and Precision"
+            }
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi I&apos;m Larry, a Fullstack Web Developer Based in Mississippi.
