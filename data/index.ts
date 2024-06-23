@@ -102,7 +102,7 @@ export const projects = [
     iconLists: [
       "/re.svg",
       "/w3_css-icon.svg",
-      "/ts.svg",
+      "/logo-javascript.svg",
       "icons8-express-js.svg",
       "/postgresql-icon.svg",
     ],
