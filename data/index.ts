@@ -91,7 +91,7 @@ export const projects = [
     title: "Zoom Clone Project",
     des: "This project follows the JS Mastery tutorial on YouTube. It's a step-by-step guide to building a Zoom clone with Next.js and TypeScript.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/s.svg", "/c.svg"],
     link: "https://github.com/ljreaux/js-mastery-zoom-clone",
   },
   {
@@ -175,13 +175,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/ljreaux",
   },
+
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/ljreaux/",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "https://img.icons8.com/ios/50/FFFFFF/domain--v1.png",
+    link: "https://drive.google.com/file/d/1PYM-dillFHdcStMO5MukmxGJR9lrch6l/view",
   },
 ];
