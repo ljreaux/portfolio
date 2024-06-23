@@ -23,14 +23,13 @@ const RecentProjects = () => {
             >
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] sm:h-[40vh] overflow-hidden h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#2d2013]">
-                  <Image src="/bg.png" alt="bg-img" fill />
+                  <img src="/bg.png" alt="bg-img" />
                 </div>
-                <Image
+                <img
                   src={img}
                   alt={title}
-                  className="z-10 absolute -bottom-2 max-h-[95%] rounded-t-xl max-w-[95%] object-cover"
+                  className="z-10 absolute -bottom-3  max-h-[95%] rounded-t-xl max-w-[95%] object-cover overflow-hidden"
                   style={{ transform: "rotate(2deg)" }}
-                  fill
                 />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -47,7 +46,7 @@ const RecentProjects = () => {
                       className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{ transform: `translateX(-${5 * i * 2}px)` }}
                     >
-                      <Image src={icon} alt={icon} className="p-2" fill />
+                      <img src={icon} alt={icon} className="p-2" />
                     </div>
                   ))}
                 </div>
