@@ -195,3 +195,26 @@ export const socialMedia = [
     link: "https://drive.google.com/file/d/1PYM-dillFHdcStMO5MukmxGJR9lrch6l/view",
   },
 ];
+
+export const companies = [
+  {
+    id: 1,
+    name: "Ole Miss",
+    img: "/olemiss.png",
+  },
+  {
+    id: 2,
+    name: "Emory University",
+    img: "/emory2.png",
+  },
+  {
+    id: 3,
+    name: "Fullstack Academy",
+    img: "https://welcome.fullstackacademy.com/assets/hanover-square-logo-white.png",
+  },
+  {
+    id: 4,
+    name: "VWSD",
+    img: "https://cmsv2-assets.apptegy.net/uploads/14465/file/1672183/8df97ca9-c5f3-4608-b6c6-aa7a00c881ce.png",
+  },
+];
