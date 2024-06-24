@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
+const { BASE_URL } = process.env;
 
 export const metadata: Metadata = {
-  // metadataBase: new URL("https://larryreaux.com"),
+  metadataBase: new URL(BASE_URL || ""),
   title: "Larry Reaux's Portfolio",
   description: "A Modern Web Development Portfolio",
   icons: "/pfp.jpeg",
