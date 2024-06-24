@@ -169,6 +169,12 @@ export const testimonials = [
     name: "JJ Ocampo",
     title: "MeadTools User, Senior Analyst",
   },
+  {
+    quote:
+      "MeadTools is quickly becoming the de facto planning tool for a wide variety of homebrewers making everything from mead to fruit wines to cider. No previous calculator has been capable of estimating batch volumes for a large number of diverse ingredients using high quality data from the USDA. MeadTools also performs complex yeast nutrient calculations that previously required a separate tool. And by providing a comprehensive set of additional brewing calculators, it is a one-stop shop, including functionality that was previously spread across a half dozen web sites. By combining strong domain knowledge, extensive research, and a solid software implementation, Larry has built a tool that is not only provides much richer functionality than existing tools, but exceeds what most people in the community would have imagined possible.",
+    name: "Matthew Allen",
+    title: "MeadTools User, Software Engineer",
+  },
 ];
 export const workExperience = [
   {
