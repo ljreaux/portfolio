@@ -10,14 +10,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Larry Reaux's Portfolio",
     description: "A Modern Web Development Portfolio",
-    images: "url/pfp.jpg",
+    images: "url/pfp.jpeg",
   },
   twitter: {
     card: "summary_large_image",
     site: "@larryreaux",
     title: "Larry Reaux's Portfolio",
     description: "A Modern Web Development Portfolio",
-    images: "url/pfp.jpg",
+    images: "url/pfp.jpeg",
   },
 };
 
