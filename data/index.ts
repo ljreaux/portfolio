@@ -177,9 +177,9 @@ export const testimonials = [
   },
   {
     quote:
-      "MeadTools, developed by Larry Reaux, is a comprehensive tool that has become indispensable for my mead-making process, providing everything I need from recipe planning and seamless unit conversion (metric <-> US) to a suite of calculators that would otherwise be scattered across the internet. I followed the project's development and was consistently impressed by Larry Reaux' pragmatic problem-solving skills and commitment to user feedback. Their friendly and responsive communication made providing feedback enjoyable, and I appreciated their ability to quickly address issues. Larry Reaux' adaptability and efficiency would make them a valuable asset to any development team.",
+      "MeadTools, developed by Larry Reaux, is a comprehensive tool that has become indispensable for my mead-making process, providing everything I need from recipe planning and seamless unit conversion (metric <-> US) to a suite of calculators that would otherwise be scattered across the internet. I followed the project's development and was consistently impressed by Larry Reaux' pragmatic problem-solving skills and commitment to user feedback. I contributed German translations to the project, which were quickly and seamlessly integrated, broadening the tool's accessibility. Their friendly and responsive communication made providing feedback enjoyable, and I appreciated their ability to quickly address issues. Larry Reaux' adaptability and efficiency would make them a valuable asset to any development team.",
     name: "Drews C.",
-    title: "Senior Android Developer, Meadtools German Translator",
+    title: "Senior Android Developer",
   },
 ];
 export const workExperience = [
