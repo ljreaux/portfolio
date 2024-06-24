@@ -3,21 +3,21 @@ import "./globals.css";
 import { ThemeProvider } from "./provider";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://larryreaux.com"),
+  // metadataBase: new URL("https://larryreaux.com"),
   title: "Larry Reaux's Portfolio",
   description: "A Modern Web Development Portfolio",
   icons: "/pfp.jpeg",
   openGraph: {
     title: "Larry Reaux's Portfolio",
     description: "A Modern Web Development Portfolio",
-    images: "url/pfp.jpeg",
+    images: "/pfp.jpeg",
   },
   twitter: {
     card: "summary_large_image",
     site: "@larryreaux",
     title: "Larry Reaux's Portfolio",
     description: "A Modern Web Development Portfolio",
-    images: "url/pfp.jpeg",
+    images: "/pfp.jpeg",
   },
 };
 
