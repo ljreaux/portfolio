@@ -157,6 +157,12 @@ export const testimonials = [
     name: "Kyle Mayer",
     title: "Frontend Engineer, Discovery Education",
   },
+  {
+    quote:
+      "Larry has never been afraid to learn something new, even when nobody is expecting it from him. While working with him in class, I was often surprised when he would implement extra features into our projects, such as React Icons or Cloudinary. This was at a time when many of his peers, including me, were content with just working with the fundamentals of React.js and Express.js. This goes to show how Larry often works with an end in mind, and will educate himself to whatever extent necessary in order to achieve that end goal. He was a wonderful classmate, and will go on to have a very successful career in tech.",
+    name: "Jared May",
+    title: "Software Engineer, Classmate at Fullstack Academy",
+  },
 ];
 export const workExperience = [
   {
