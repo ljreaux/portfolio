@@ -163,6 +163,12 @@ export const testimonials = [
     name: "Jared May",
     title: "Software Engineer, Classmate at Fullstack Academy",
   },
+  {
+    quote:
+      "Larry's commitment to meadtools.com has been made my life easier and more enjoyable as a mead maker.  His dedication to making meaningful updates, based on real feedback has positive impact on our ability to use the tool.  Additionally he is great at immediately updating us and communicating changes so we know we can have the most up to date experience",
+    name: "JJ Ocampo",
+    title: "MeadTools User, Senior Analyst",
+  },
 ];
 export const workExperience = [
   {
