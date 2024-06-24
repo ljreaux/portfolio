@@ -151,6 +151,12 @@ export const testimonials = [
     name: "Garrett Freeman",
     title: "MeadTools User, Content Creator",
   },
+  {
+    quote:
+      "Larry Reaux has consistently demonstrated the passion, drive, and tenacity to learn any language, framework, or technology he has needed to in order to finish a project. What Larry may lack in years of experience, he makes up for in his ability to quickly learn and apply new concepts. Larry has the mind of a creative problem solver and will be an invaluable asset to any team he joins.",
+    name: "Kyle Mayer",
+    title: "Frontend Engineer, Discovery Education",
+  },
 ];
 export const workExperience = [
   {
