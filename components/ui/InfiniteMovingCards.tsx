@@ -6,7 +6,6 @@ import React, { useEffect, useState } from "react";
 export const InfiniteMovingCards = ({
   items,
   direction = "left",
-  speed = "slow",
   pauseOnHover = true,
   className,
 }: {
@@ -16,7 +15,6 @@ export const InfiniteMovingCards = ({
     title: string;
   }[];
   direction?: "left" | "right";
-  speed?: "fast" | "normal" | "slow";
   pauseOnHover?: boolean;
   className?: string;
 }) => {
@@ -60,13 +58,12 @@ export const InfiniteMovingCards = ({
   };
   const getSpeed = () => {
     if (containerRef.current) {
-      if (speed === "fast") {
-        containerRef.current.style.setProperty("--animation-duration", "20s");
-      } else if (speed === "normal") {
-        containerRef.current.style.setProperty("--animation-duration", "40s");
-      } else {
-        containerRef.current.style.setProperty("--animation-duration", "400s");
-      }
+      const cardOnScreen = 67;
+      const animationDuration = items.length * cardOnScreen;
+      containerRef.current.style.setProperty(
+        "--animation-duration",
+        `${animationDuration}s`
+      );
     }
   };
   return (
