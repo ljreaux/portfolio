@@ -187,6 +187,11 @@ export const testimonials = [
     name: "Brian Mui",
     title: "Education Mentor, Fullstack Academy",
   },
+  {
+    quote: "Since I met Larry, he has been extremely passionate about turning his ideas into well researched web products. Within a few weeks of starting class, he had turned a spreadsheet project into a fully functioning front end website (Mead Tools.) While working with him on Culinary Chronicle, he was very aware of the potential security vulnerabilities of managing various levels of accounts, and made sure we closed those vulnerabilities on both front end, back end, and in the seed data itself. He’s very easy to work with as far as feedback and is always offering constructive solutions from design decisions to hunting down merge conflicts as a team. I feel he would be an amazing addition to any development team.",
+    name: "Lisa Barry",
+    title: "Animator, Web Developer, Fullstack Academy classmate"
+  }
 ];
 export const workExperience = [
   {
