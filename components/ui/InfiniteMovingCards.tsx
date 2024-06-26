@@ -58,7 +58,7 @@ export const InfiniteMovingCards = ({
   };
   const getSpeed = () => {
     if (containerRef.current) {
-      const cardOnScreen = 50;
+      const cardOnScreen = 40;
       const animationDuration = items.length * cardOnScreen;
       containerRef.current.style.setProperty(
         "--animation-duration",
