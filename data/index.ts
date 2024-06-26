@@ -181,6 +181,12 @@ export const testimonials = [
     name: "Drews C.",
     title: "Senior Android Developer",
   },
+  {
+    quote:
+      "Driven, self-starter, quick on the uptake and always meets his deadlines. I enjoyed being his mentor during bootcamp and helping him with his projects because you could tell he was passionate about learning and improving his skills even if it meant going off and doing research on his own. Any team would be lucky to have him.",
+    name: "Brian Mui",
+    title: "Education Mentor, Fullstack Academy",
+  },
 ];
 export const workExperience = [
   {
